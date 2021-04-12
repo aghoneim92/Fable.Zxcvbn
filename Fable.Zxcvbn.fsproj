@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <PackageVersion>0.0.1</PackageVersion>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Ahmed Ghoneim</Authors>
+    <Description>Fable bindings for the zxcvbn password strength library</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/aghoneim92/Fable.Zxcvbn</PackageProjectUrl>
+    <PackageTags>Fable Zxcvbn Password Strength Validation</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <Copyright>Copyright Ahmed Ghoneim 2021</Copyright>
+    <RepositoryUrl>https://github.com/aghoneim92/Fable.Zxcvbn.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Fable.Zxcvbn.Types.fs" />
+    <Compile Include="Fable.Zxcvbn.Options.fs" />
+    <Compile Include="Fable.Zxcvbn.Language.Common.fs" />
+    <Compile Include="Fable.Zxcvbn.Language.En.fs" />
+    <Compile Include="Fable.Zxcvbn.Core.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="3.2.6" />
+  </ItemGroup>
+
+</Project>
