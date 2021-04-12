@@ -3,6 +3,7 @@ Fable bindings for the zxcvbn password strength library
 
 # Installation
 `dotnet add package Fable.Zxcvbn`
+
 `npm install @zxcvbn-ts/core @zxcvbn-ts/language-common @zxcvbn-ts/language-en`
 
 # Usage
